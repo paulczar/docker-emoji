@@ -1,0 +1,36 @@
+#!/bin/sh
+
+case $1 in
+
+flip)
+echo '  (╯°□°）╯︵ ┻━┻)'
+;;
+
+docker)
+echo '
+  ▄██████████████▄▐█▄▄▄▄█▌
+  ████████████████▌▀▀██▀▀
+  ████▄███████████████▌
+  ▄▄▄▄▄██████████████▀
+'
+
+;;
+
+lolwut)
+echo '
+            /◝o
+         (¤_¤)
+         .[__].
+  █▄▄ ███ █▄▄ █▄█▄█ █▄█ ▀█▀
+'
+;;
+
+money)
+echo '  [̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]'
+;;
+
+
+
+*)
+echo "Usage: docker run paulczar/emoji [docker|flip|lolwut|money]"
+esac
